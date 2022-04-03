@@ -1,0 +1,96 @@
+/* * {
+    border: 1px solid teal;
+} */
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: scroll;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.topBan {
+    justify-content: space-evenly;
+}
+
+.searchBan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ukraineBan {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #FF385C;
+    padding: 3em;
+    margin: 3em;
+    font-size: 38px;
+
+}
+
+.refugeeText {
+    align-self: center;
+    padding: 1em;
+}
+
+.learnMore {
+    font-size: 18px;
+    align-self: center;
+    border-radius:  7px;
+    border: solid white;
+    text-align: center;
+    padding: 0.3em;
+    width:fit-content;
+
+}
+
+.bookingBan {
+
+}
+
+main {
+    height: 4000px;
+}
+
+.banOne {
+    display: flex;
+    justify-content: center;
+}
+
+.airBNB {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.footer {
+    background-color: #F7F7F7;
+    height: 500px;
+}
+
+.specMar {
+    padding: 0em 1em 1em 1em;
+    font-size: 14px;
+}
+
+.specMar1 {
+    padding: 0em 1em 5em 1em;
+    font-size: 14px;
+}
